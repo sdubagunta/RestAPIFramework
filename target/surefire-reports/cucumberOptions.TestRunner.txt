@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.695 sec <<< FAILURE!
+Verify if delete place functionality is working(Validating place API's)  Time elapsed: 0.203 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'DeletePlace Payload' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("DeletePlace Payload")
+public void delete_place_payload() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user calls {string} with {string} http request")
+public void user_calls_with_http_request(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the API call is success with status code {int}")
+public void the_api_call_is_success_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} in response body is {string}")
+public void in_response_body_is(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
